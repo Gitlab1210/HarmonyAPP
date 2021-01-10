@@ -1,0 +1,51 @@
+{
+  "app": {
+    "bundleName": "com.huangxy.harmonyapp",
+    "vendor": "huangxy",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 4,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.huangxy.harmonyapp",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone",
+      "wearable",
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "portrait",
+        "name": "com.huangxy.harmonyapp.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "HarmonyAPP",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

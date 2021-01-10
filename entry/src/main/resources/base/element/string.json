@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "HarmonyAPP"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Profile Picture List Ability"
+    },
+    {
+      "name": "title_text",
+      "value": "鸿蒙OS初步探索"
+    },
+    {
+      "name": "title_item_description",
+      "value": "Title Button"
+    },
+    {
+      "name": "top_first_item_description",
+      "value": "First Button"
+    },
+    {
+      "name": "top_second_item_description",
+      "value": "Second Button"
+    },
+    {
+      "name": "top_third_item_description",
+      "value": "Third Button"
+    }
+  ]
+}
